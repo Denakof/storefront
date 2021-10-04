@@ -1,7 +1,11 @@
-let intialstate={
-    c:[0]
+import React from 'react'
+
+function categories() {
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
-export default (state=intialstate, action)=>{
-    let {type,payload}=action
-}
+export default categories
